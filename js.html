@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pdp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Personal Developement Plan</title>
+
+
+</head>
+<body>
+    <div>
+    <h1><center>Student Personal Developement Plan</center></h1>
+    <form>
+    <h3>Student Name:</h3><input type="text" id="Student name" placeholder="Student name" required>
+        <h3>User ID:</h3><input type="ID" id="User ID" placeholder="User ID" required>
+        <h3>Period Covered:</h3><input type="text" id="Period" placeholder="Period Covered" required>
+        <h3>Apprasier:</h3><input type="text" id="Appraiser" placeholder="Apprasier" required>
+      </form>
+  
+    <table class="one">
+        <tr>
+          <th>Objective/Task/Activity </th>
+          <th>How would you
+            accomplish this?</th> 
+          <th>Mid-year
+            progress</th>
+            <th>Year-end
+                outcome
+                </th>
+
+        </tr>
+        <tr>
+          <td>Academic achievement</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Organizational and study skills</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Leadership skills</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+            <td>Teamwork </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Presentation and 
+                communication skills</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+      </table>
+      <h3>Appraiser/ Personal Tutor Comments</h3>
+      <table class="two"">
+        <tr>
+            <td> Mid-year Progress</td>
+            <td style="width:500px;height: 50px;"></td>
+        </tr>
+        <tr>
+            <td>Year-end Outcome</td>
+            <td style="width:500px;height: 50px;"></td>
+    
+        </tr>
+
+      </table>
+<form id="form">
+  <input type="submit" value="submit">
+  <script>
+    var form=document.getElementById('form')
+    form.addEventListener('submit',event){
+      event.preventDefault() // prevent the form from autosubmitting
+    }
+  </script>
+
+</form>
+    </div>
+</body>
+</html>

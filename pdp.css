@@ -1,0 +1,30 @@
+
+table, th, td,tr {
+    border: 3px solid rgb(163, 155, 145);
+    border-collapse: collapse;
+    background-color: greenyellow;
+    text-decoration: solid;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .one {
+    height: 300px;
+    width: 1000px;
+  }
+  th, td {
+    background-color: #458f37;
+  }
+  body{
+    background-image:url("image6.webp");background-repeat: no-repeat; width: fit-content;
+    text-decoration: #ce480a;
+  
+  }
+  body {
+    margin-bottom: 300px;
+  }
+  h1
+  {
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+  }
